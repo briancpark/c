@@ -8,8 +8,16 @@ int main() {
 
     var = 15;
 
-    int x = 2314;
+    //int x = 2314;
 
-    int *ptr2 = x;
+    //int *ptr2 = x;
 
+    int *x;
+    x = malloc(sizeof(int));
+    *x = 42;
+  
+    int *lec_ptr;
+    *lec_ptr = 5;  //naive mistake that was pointed out in lecture
+    
+  
 }
